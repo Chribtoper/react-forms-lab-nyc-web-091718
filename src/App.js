@@ -15,12 +15,12 @@ class App extends Component {
         <h1>
           <pre>LoginForm</pre>
         </h1>
-        <LoginForm onSubmit={this.login} />
+        <LoginForm onSubmit={this.login} handleChange={this.handleChange} />
 
         <h1>
           <pre>TwitterMessage</pre>
         </h1>
-        <TwitterMessage maxChars={140} />
+        <TwitterMessage maxChars={140} handleChange={this.handleChange} />
 
 
 
